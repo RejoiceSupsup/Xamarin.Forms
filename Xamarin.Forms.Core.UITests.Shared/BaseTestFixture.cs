@@ -45,7 +45,7 @@ namespace Xamarin.Forms.Core.UITests
 		[SetUp]
 		protected virtual void TestSetup()
 		{
-			//EnsureMemory();
+			EnsureMemory();
 		}
 
 		[TearDown]
